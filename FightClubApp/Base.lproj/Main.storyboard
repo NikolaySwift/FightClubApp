@@ -195,7 +195,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="J77-Oa-GUd">
                                                 <rect key="frame" x="0.0" y="23.5" width="163" height="120"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" highlightedImage="Tap to choose" translatesAutoresizingMaskIntoConstraints="NO" id="SPg-K6-V5S">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="SPg-K6-V5S">
                                                         <rect key="frame" x="21.5" y="0.5" width="120" height="119"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="120" id="Syo-pU-Yot"/>
@@ -1183,7 +1183,6 @@
         <segue reference="bBF-KT-xKl"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Tap to choose" width="128" height="128"/>
         <image name="cart.fill" catalog="system" width="128" height="102"/>
         <image name="door.left.hand.open" catalog="system" width="108" height="128"/>
         <image name="figure.martial.arts" catalog="system" width="110" height="128"/>
