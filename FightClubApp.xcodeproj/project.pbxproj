@@ -13,6 +13,7 @@
 		8D5918032C637865004DAC55 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8D5918022C637865004DAC55 /* Base */; };
 		8D5918052C637866004DAC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5918042C637866004DAC55 /* Assets.xcassets */; };
 		8D5918082C637866004DAC55 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8D5918072C637866004DAC55 /* Base */; };
+		8D62AEB02C73B1140095687D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D62AEAF2C73B1140095687D /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D5918042C637866004DAC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5918072C637866004DAC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D5918092C637866004DAC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D62AEAF2C73B1140095687D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,56 @@
 		8D5917FA2C637865004DAC55 /* FightClubApp */ = {
 			isa = PBXGroup;
 			children = (
-				8D5917FB2C637865004DAC55 /* AppDelegate.swift */,
-				8D5917FD2C637865004DAC55 /* SceneDelegate.swift */,
-				8D5917FF2C637865004DAC55 /* ViewController.swift */,
-				8D5918012C637865004DAC55 /* Main.storyboard */,
-				8D5918042C637866004DAC55 /* Assets.xcassets */,
-				8D5918062C637866004DAC55 /* LaunchScreen.storyboard */,
-				8D5918092C637866004DAC55 /* Info.plist */,
+				8D62AEAE2C73B0E00095687D /* Models */,
+				8D62AEAB2C73B0AB0095687D /* ViewControllers */,
+				8D62AEAD2C73B0C90095687D /* Storyboards */,
+				8D62AEAA2C73B09F0095687D /* App */,
+				8D62AEAC2C73B0BB0095687D /* Resources */,
 			);
 			path = FightClubApp;
+			sourceTree = "<group>";
+		};
+		8D62AEAA2C73B09F0095687D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8D5917FB2C637865004DAC55 /* AppDelegate.swift */,
+				8D5917FD2C637865004DAC55 /* SceneDelegate.swift */,
+				8D5918092C637866004DAC55 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8D62AEAB2C73B0AB0095687D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D5917FF2C637865004DAC55 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8D62AEAC2C73B0BB0095687D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5918042C637866004DAC55 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D62AEAD2C73B0C90095687D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8D5918012C637865004DAC55 /* Main.storyboard */,
+				8D5918062C637866004DAC55 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8D62AEAE2C73B0E00095687D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D62AEAF2C73B1140095687D /* Character.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +184,7 @@
 				8D5918002C637865004DAC55 /* ViewController.swift in Sources */,
 				8D5917FC2C637865004DAC55 /* AppDelegate.swift in Sources */,
 				8D5917FE2C637865004DAC55 /* SceneDelegate.swift in Sources */,
+				8D62AEB02C73B1140095687D /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
