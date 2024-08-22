@@ -14,8 +14,8 @@ struct Account {
 }
 
 struct ItemEffect {
-let type: EffectType
-let value: Int
+    let type: EffectType
+    let value: Int
 }
 
 enum EffectType: String {
@@ -26,7 +26,7 @@ enum EffectType: String {
 }
 
 struct ShopItem {
-    //let item: Item
+    let item: Item
     let quantity: Int
 }
 
