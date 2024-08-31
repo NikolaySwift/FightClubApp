@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1DBCF72C830C1500238694 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1DBCF62C830C1500238694 /* InventoryViewController.swift */; };
+		8D1DBCF92C8313C000238694 /* ParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1DBCF82C8313C000238694 /* ParametersViewController.swift */; };
+		8D1DBCFC2C83284300238694 /* BuyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1DBCFB2C83284300238694 /* BuyTableViewCell.swift */; };
+		8D1DBCFE2C83284F00238694 /* SellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1DBCFD2C83284F00238694 /* SellTableViewCell.swift */; };
+		8D1DBD032C8354E800238694 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1DBD022C8354E800238694 /* DataStorage.swift */; };
+		8D1DBD052C835B9C00238694 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1DBD042C835B9C00238694 /* MenuViewController.swift */; };
+		8D1DBD072C835BB500238694 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1DBD062C835BB500238694 /* RegistrationViewController.swift */; };
+		8D2EBCDA2C82FBF800A874E3 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2EBCD92C82FBF800A874E3 /* Menu.storyboard */; };
 		8D5917FC2C637865004DAC55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5917FB2C637865004DAC55 /* AppDelegate.swift */; };
 		8D5917FE2C637865004DAC55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5917FD2C637865004DAC55 /* SceneDelegate.swift */; };
-		8D5918002C637865004DAC55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5917FF2C637865004DAC55 /* ViewController.swift */; };
+		8D5918002C637865004DAC55 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5917FF2C637865004DAC55 /* LoginViewController.swift */; };
 		8D5918032C637865004DAC55 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8D5918022C637865004DAC55 /* Base */; };
 		8D5918052C637866004DAC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5918042C637866004DAC55 /* Assets.xcassets */; };
 		8D5918082C637866004DAC55 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8D5918072C637866004DAC55 /* Base */; };
+		8D6219392C82FEB700D1F960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6219382C82FEB700D1F960 /* Main.storyboard */; };
+		8D62193B2C83026C00D1F960 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D62193A2C83026C00D1F960 /* ShopViewController.swift */; };
+		8D62193D2C83035D00D1F960 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D62193C2C83035D00D1F960 /* CharacterViewController.swift */; };
 		8D62AEB02C73B1140095687D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D62AEAF2C73B1140095687D /* Character.swift */; };
+		8DBC9C9D2C82F1E6008103E5 /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBC9C9C2C82F1E6008103E5 /* Shop.storyboard */; };
+		8DBC9C9F2C82F882008103E5 /* FightRing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBC9C9E2C82F882008103E5 /* FightRing.storyboard */; };
+		8DBC9CA12C82F905008103E5 /* Character.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBC9CA02C82F905008103E5 /* Character.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D1DBCF62C830C1500238694 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		8D1DBCF82C8313C000238694 /* ParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersViewController.swift; sourceTree = "<group>"; };
+		8D1DBCFB2C83284300238694 /* BuyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTableViewCell.swift; sourceTree = "<group>"; };
+		8D1DBCFD2C83284F00238694 /* SellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellTableViewCell.swift; sourceTree = "<group>"; };
+		8D1DBD022C8354E800238694 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		8D1DBD042C835B9C00238694 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8D1DBD062C835BB500238694 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		8D2EBCD92C82FBF800A874E3 /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		8D5917F82C637865004DAC55 /* FightClubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FightClubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5917FB2C637865004DAC55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D5917FD2C637865004DAC55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D5917FF2C637865004DAC55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D5918022C637865004DAC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D5917FF2C637865004DAC55 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8D5918022C637865004DAC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FightClubNavigation.storyboard; sourceTree = "<group>"; };
 		8D5918042C637866004DAC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5918072C637866004DAC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D5918092C637866004DAC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6219382C82FEB700D1F960 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8D62193A2C83026C00D1F960 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		8D62193C2C83035D00D1F960 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		8D62AEAF2C73B1140095687D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		8DBC9C9C2C82F1E6008103E5 /* Shop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shop.storyboard; sourceTree = "<group>"; };
+		8DBC9C9E2C82F882008103E5 /* FightRing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FightRing.storyboard; sourceTree = "<group>"; };
+		8DBC9CA02C82F905008103E5 /* Character.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Character.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +67,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D1DBCFA2C83280100238694 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D1DBCFB2C83284300238694 /* BuyTableViewCell.swift */,
+				8D1DBCFD2C83284F00238694 /* SellTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D1DBD012C8354D200238694 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D1DBD022C8354E800238694 /* DataStorage.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		8D5917EF2C637865004DAC55 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +103,8 @@
 		8D5917FA2C637865004DAC55 /* FightClubApp */ = {
 			isa = PBXGroup;
 			children = (
+				8D1DBD012C8354D200238694 /* Services */,
+				8D1DBCFA2C83280100238694 /* Views */,
 				8D62AEAE2C73B0E00095687D /* Models */,
 				8D62AEAB2C73B0AB0095687D /* ViewControllers */,
 				8D62AEAD2C73B0C90095687D /* Storyboards */,
@@ -80,7 +127,13 @@
 		8D62AEAB2C73B0AB0095687D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8D5917FF2C637865004DAC55 /* ViewController.swift */,
+				8D5917FF2C637865004DAC55 /* LoginViewController.swift */,
+				8D1DBD062C835BB500238694 /* RegistrationViewController.swift */,
+				8D1DBD042C835B9C00238694 /* MenuViewController.swift */,
+				8D62193C2C83035D00D1F960 /* CharacterViewController.swift */,
+				8D1DBCF82C8313C000238694 /* ParametersViewController.swift */,
+				8D1DBCF62C830C1500238694 /* InventoryViewController.swift */,
+				8D62193A2C83026C00D1F960 /* ShopViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -96,7 +149,12 @@
 		8D62AEAD2C73B0C90095687D /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				8D5918012C637865004DAC55 /* Main.storyboard */,
+				8D6219382C82FEB700D1F960 /* Main.storyboard */,
+				8D5918012C637865004DAC55 /* FightClubNavigation.storyboard */,
+				8DBC9CA02C82F905008103E5 /* Character.storyboard */,
+				8DBC9C9C2C82F1E6008103E5 /* Shop.storyboard */,
+				8DBC9C9E2C82F882008103E5 /* FightRing.storyboard */,
+				8D2EBCD92C82FBF800A874E3 /* Menu.storyboard */,
 				8D5918062C637866004DAC55 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -168,6 +226,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6219392C82FEB700D1F960 /* Main.storyboard in Resources */,
+				8D2EBCDA2C82FBF800A874E3 /* Menu.storyboard in Resources */,
+				8DBC9C9F2C82F882008103E5 /* FightRing.storyboard in Resources */,
+				8DBC9C9D2C82F1E6008103E5 /* Shop.storyboard in Resources */,
+				8DBC9CA12C82F905008103E5 /* Character.storyboard in Resources */,
 				8D5918052C637866004DAC55 /* Assets.xcassets in Resources */,
 				8D5918082C637866004DAC55 /* Base in Resources */,
 				8D5918032C637865004DAC55 /* Base in Resources */,
@@ -181,9 +244,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5918002C637865004DAC55 /* ViewController.swift in Sources */,
+				8D1DBCF72C830C1500238694 /* InventoryViewController.swift in Sources */,
+				8D62193D2C83035D00D1F960 /* CharacterViewController.swift in Sources */,
+				8D1DBD032C8354E800238694 /* DataStorage.swift in Sources */,
+				8D5918002C637865004DAC55 /* LoginViewController.swift in Sources */,
+				8D1DBD072C835BB500238694 /* RegistrationViewController.swift in Sources */,
 				8D5917FC2C637865004DAC55 /* AppDelegate.swift in Sources */,
+				8D1DBCF92C8313C000238694 /* ParametersViewController.swift in Sources */,
+				8D62193B2C83026C00D1F960 /* ShopViewController.swift in Sources */,
+				8D1DBD052C835B9C00238694 /* MenuViewController.swift in Sources */,
 				8D5917FE2C637865004DAC55 /* SceneDelegate.swift in Sources */,
+				8D1DBCFE2C83284F00238694 /* SellTableViewCell.swift in Sources */,
+				8D1DBCFC2C83284300238694 /* BuyTableViewCell.swift in Sources */,
 				8D62AEB02C73B1140095687D /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,12 +263,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8D5918012C637865004DAC55 /* Main.storyboard */ = {
+		8D5918012C637865004DAC55 /* FightClubNavigation.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8D5918022C637865004DAC55 /* Base */,
 			);
-			name = Main.storyboard;
+			name = FightClubNavigation.storyboard;
 			sourceTree = "<group>";
 		};
 		8D5918062C637866004DAC55 /* LaunchScreen.storyboard */ = {

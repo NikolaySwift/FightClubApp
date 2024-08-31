@@ -46,7 +46,7 @@ enum EffectType: String {
 
 struct ShopItem {
     let item: Item
-    let quantity: Int
+    var quantity: Int
 }
 
 struct Statistics {
@@ -99,6 +99,8 @@ enum SecondaryParameter {
     case maximumHealth
     case currentEnergy
     case maximumEnergy
+    case currentExperience
+    case nextLevelExperience
     case damage
     case defence
     case dodgeChance
