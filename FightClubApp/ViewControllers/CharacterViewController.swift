@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol InventoryDelegate: AnyObject {
+protocol ShopViewControllerDelegate: AnyObject {
     var inventory: [Item] { get }
     var money: Int { get }
     

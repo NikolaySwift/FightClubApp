@@ -56,8 +56,8 @@ struct Statistics {
 }
 
 struct Inventory {
-    private var equipment: [ItemType: Item?]
-    private var items: [Item]
+    var equipment: [ItemType: Item?]
+    var items: [Item]
     
     init(items: [Item] = []) {
         equipment = [

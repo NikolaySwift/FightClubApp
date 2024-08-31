@@ -17,11 +17,11 @@ final class ShopViewController: UIViewController {
     @IBOutlet var moneyLabel: UILabel!
     @IBOutlet var tableView: UITableView!
     
-    weak var inventoryDelegate: InventoryDelegate?
+    weak var delegate: ShopViewControllerDelegate?
     
     private var shopItems: [ShopItem] = DataStorage.shared.getShopItems()
     private var money: Int {
-        inventoryDelegate?.money ?? 0
+        delegate?.money ?? 0
     }
     
     override func viewDidLoad() {
@@ -44,8 +44,8 @@ extension ShopViewController: UITableViewDataSource {
         case 0:
             return shopItems.isEmpty ? 1 : shopItems.count
         default:
-            guard let inventoryDelegate, !inventoryDelegate.inventory.isEmpty else { return 1 }
-            return inventoryDelegate.inventory.count
+            guard let delegate, !delegate.inventory.isEmpty else { return 1 }
+            return delegate.inventory.count
         }
     }
     
@@ -76,7 +76,7 @@ extension ShopViewController: UITableViewDataSource {
                             showAlert(withTitle: "You can't buy it", andMessage: "You need much money")
                             return
                         }
-                        inventoryDelegate?.buy(shopItem.item, withPrice: shopItem.item.price)
+                        delegate?.buy(shopItem.item, withPrice: shopItem.item.price)
                         setMoneyToLabel()
                         shopItems[indexPath.row].quantity -= 1
                         if shopItems[indexPath.row].quantity == 0 {
@@ -90,7 +90,7 @@ extension ShopViewController: UITableViewDataSource {
                 return buyCell
             }
         default:
-            guard let inventoryDelegate, !inventoryDelegate.inventory.isEmpty else {
+            guard let delegate, !delegate.inventory.isEmpty else {
                 let emptyCell = setupEmptyCell(
                     forTableView: tableView,
                     andIndexPath: indexPath,
@@ -107,11 +107,11 @@ extension ShopViewController: UITableViewDataSource {
                 return UITableViewCell()
             }
             
-            let item = inventoryDelegate.inventory[indexPath.row]
+            let item = delegate.inventory[indexPath.row]
             sellCell.configure(
                 with: item,
                 andInfoDelegate: self) { [unowned self] in
-                    inventoryDelegate.sell(item, withPrice: item.price)
+                    delegate.sell(item, withPrice: item.price)
                     setMoneyToLabel()
                     tableView.deleteRows(at: [indexPath], with: .automatic)
                 }
